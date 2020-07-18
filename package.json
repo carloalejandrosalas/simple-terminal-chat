@@ -1,0 +1,18 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "Simple terminal app and server chat build with sockets.",
+  "main": "app.js",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app/server.js",
+    "client": "node app/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "carloalejandrosalas",
+  "license": "ISC"
+}
